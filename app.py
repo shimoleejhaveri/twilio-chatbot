@@ -9,3 +9,6 @@ def home():
 @app.route('/dynamicsay', methods=['POST'])
 def dynamic_say():
     return send_file('dynamicsay.json')
+
+if __name__ == "__main__":
+    app.run()
