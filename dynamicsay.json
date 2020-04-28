@@ -1,5 +1,11 @@
 {
   "actions": [
+  {
+      "say": "What clothes would you like to order?"
+  },
+  {
+      "listen": true
+  }
     {
       "collect": {
         "name": "collect_clothes_order",
@@ -38,7 +44,7 @@
           }
         ],
         "on_complete": {
-          "redirect": "https://your-ngrok-subdomain-here.ngrok.io/collect"
+          "redirect": "http://ecf936e7.ngrok.io/collect"
         }
       }
     }
