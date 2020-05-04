@@ -12,7 +12,7 @@
           {
             "question": "What genre are you interested in?",
             "name": "genre",
-            "type": "FictionGenre"
+            "type": "NonFictionGenre"
           },
           {
             "type" : "Twilio.YES_NO",
